@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  gap: 742px;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+
+    li a {
+      color: #ababab;
+      text-decoration: none;
+    }
+  }
+}
