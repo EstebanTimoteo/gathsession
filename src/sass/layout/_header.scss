@@ -2,6 +2,7 @@ nav {
   display: flex;
   gap: 742px;
   align-items: center;
+  margin-bottom: 80px;
 
   ul {
     display: flex;
@@ -11,6 +12,15 @@ nav {
     li a {
       color: #ababab;
       text-decoration: none;
+      font-size: 18px;
+    }
+
+    li a:hover {
+      color: white;
+      text-decoration: underline;
+      text-underline-offset: 8px;
+      text-decoration-thickness: 2px;
+      text-decoration-color: #db2a6b;
     }
   }
 }
